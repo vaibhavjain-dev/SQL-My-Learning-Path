@@ -115,3 +115,8 @@ WHERE customer.id IS NULL;
 SELECT id FROM customer
 UNION
 SELECT id FROM orders;
+
+-- UNION ALL Operator
+SELECT id FROM customer
+UNION ALL
+SELECT id FROM orders;
